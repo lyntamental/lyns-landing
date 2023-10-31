@@ -1,0 +1,8 @@
+/* the props */
+@import "https://unpkg.com/open-props";
+
+body { 
+    background-image: url("Water_BG.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
