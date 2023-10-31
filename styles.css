@@ -1,8 +1,56 @@
 /* the props */
 @import "https://unpkg.com/open-props";
 
-body { 
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+main { 
+
     background-image: url("Water_BG_Big.png");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+
+  /*  filter: blur(8px);
+    -webkit-filter: blur(8px);*/
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    
+}
+
+.card { 
+    background-color: white;
+    border-radius: 15px;
+    padding: 0em 6em 6em 6em;
+    margin: 5em;
+}
+.card p {
+        height: 2em;
+        width: 450px;
+}
+
+.card ul {
+    /*margin-top: 120px;*/
+    line-height: 2em;
+    list-style: none;
+    padding-left: 0;
+}
+
+.links a {
+    
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    color: #e1e1e1;
+    background-color: #5E5EAE;
+    height: 1.5em;
+    width: 6em;
+    padding: .5em;
+    margin-bottom: .5em;
+    text-align: center;
+    border-radius: 30px;
 }
