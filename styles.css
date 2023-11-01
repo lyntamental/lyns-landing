@@ -42,7 +42,7 @@ main {
 }
 
 .card { 
-    background-color: white;
+    background-color: #fffafa;
     border-radius: 15px;
     height: 60%;
     width: 60%;
@@ -75,6 +75,10 @@ main {
 }
 
 .card h1 {
+    font-family: 'Sentient-Variable';
+}
+
+.card h2 {
     font-family: 'Sentient-Variable';
 }
 
